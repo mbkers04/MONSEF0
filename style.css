@@ -527,10 +527,10 @@ header nav .nav-links a.active{
 
   @media (max-width: 500px) {
     .hero .content h1 {
-        font-size: 32px;  /* Further reduce font size */
+        font-size: 32px;
     }
     .hero .hero-img img {
-        width: 250px;  /* Ensure the image scales appropriately */
+        width: 250px; 
     }
     header nav .nav-links a {
         padding: 15px;
