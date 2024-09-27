@@ -1,585 +1,235 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Leven - Resume / CV / vCard Template" />
-    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
-    <meta name="author" content="monsef" />
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="img/meme.png">
 
-    <link rel="icon" type="image/png" sizes="64x64" href="img/meme.png">
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-
-    <script src="js/modernizr.custom.js"></script>
-  </head>
-
-  <body class="page">
-
-    <div class="lm-animated-bg"></div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="preloader-spinner">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Briem+Hand:wght@100..900&family=Montserrat:wght@500&family=Rubik&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="contanier">
+            <h2>MONSEF BOUKHANJER</h2>
+            <i id="btn-menu" class="fa-solid fa-bars"></i>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#Portfolio">Projects</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+<!--  home  -->
+    <div class="hero" id="home">
+        <div class="contanier">
+            <div class="content">
+                <h4>Hello, I'm</h4>
+                <h1>Monsef Boukhanjer</h1>
+                <p>Web Developer</p>
+                <a href="#Portfolio" class="btn">See my work</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="img/yellewbg.png" alt="">
+            </div>
         </div>
-      </div>
     </div>
-    <!-- /Loading animation -->
 
-    <!-- Scroll To Top Button -->
-    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
-    <!-- /Scroll To Top Button -->
+    <!--  about  -->
 
-    <div class="page-scroll">
-      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
-
-        <!-- Header -->
-        <header id="site_header" class="header">
-          <div class="header-content clearfix">
-                
-            <!-- Text Logo -->
-            <div class="text-logo">
-              <a href="index.html">
-                <div class="logo-symbol">MB</div>
-                <div class="logo-text">Monsef <span>Boukhanjer</span></div>
-              </a>
+    <section id="about" class="about">
+        <div class="contanier">
+            <div class="about-img">
+                <img src="img/aboutm.jpg" alt="">
             </div>
-            <!-- /Text Logo -->
-
-            <!-- Navigation -->
-            <div class="site-nav mobile-menu-hide">
-              <ul class="leven-classic-menu site-main-menu">
-                <li class="menu-item menu-item-has-children current-menu-item">
-                  <a href="index.html">About Me</a>
-                  <ul class="sub-menu">
-                    <li class="menu-item current-menu-item">
-                      <a href="index.html">About Me 1</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="index-2.html">About Me 2</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="menu-item">
-                  <a href="resume.html">Resume</a>
-                </li>
-
-                <li class="menu-item menu-item-has-children">
-                  <a href="portfolio.html">Portfolio</a>
-                  <ul class="sub-menu">
-                    <li class="menu-item">
-                      <a href="portfolio-2-columns.html">Portfolio 2 Columns</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="portfolio.html">Portfolio 3 Columns</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="portfolio-4-columns.html">Portfolio 4 Columns</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="portfolio-5-columns.html">Portfolio 5 Columns</a>
-                    </li>
-                  </ul>
-                </li>
-                
-                <li class="menu-item menu-item-has-children">
-                  <a href="mailto:mbkerscoding@gmail.com">Let's work together</a>
-                  <ul class="sub-menu">
-                    <li class="menu-item">
-                      <a href="mailto:monsefboukhanjer@gmail.com">Shoot me an email</a>
-                    </li>
-                  
-                  </ul>
-                </li>
-
-                <li class="menu-item">
-                  <a href="contact.html">Contact</a>
-                </li>
-              </ul>
+            <div class="content">
+                <h1>About <span>Me</span></h1>
+                <h3>Web Developer</h3>
+                <p>I design and build beautiful websites for businesses around the globe. If you need a modern and powerful website,
+                     send me an email. If we are a good fit, I will give you a time and cost estimate.</p>
+                     <div class="btns">
+                        <a href="#" class="btn">Download CV</a>
+                        <a href="#" class="btn">Contact</a>
+                     </div>
             </div>
-
-            <a class="menu-toggle mobile-visible">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
-        </header>
-
-        <div id="main" class="site-main">
-          <div id="main-content" class="single-page-content">
-            <div id="primary" class="content-area">    
-              <div id="content" class="page-content site-content single-post" role="main">
-                <div class="row">
-                  <div class=" col-xs-12 col-sm-12">
-                    <div class="home-content">
-                      <div class="row flex-v-align">
-                        
-                        <div class="col-sm-12 col-md-5 col-lg-5">
-                          <div class="home-photo">
-                            <div class="hp-inner" style="background-image: url(img/meme.png);">
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-sm-12 col-md-7 col-lg-7">
-                          <div class="home-text hp-left">
-                            <div class="owl-carousel text-rotation">                                    
-                              <div class="item">
-                                <h4>Frontend-developer</h4>
-                              </div>
-
-                              <div class="item">
-                                <h4>Web Designer</h4>
-                              </div>
-                            </div>
-                              
-                            <h1>Monsef Boukhanjer</h1>
-                            <p>I design and build beautiful websites for businesses around the globe. 
-                              If you need a modern and powerful website, send me an email. If we are a good fit,
-                               I will give you a time and cost estimate.</p>
-                                 
-                            <div class="home-buttons">
-                              <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
-                              <a href="#" target="_self" class="btn btn-secondary">Contact</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Home Page Top Part -->
-
-                <!-- Services -->
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12">
-                    <div class="p-50"></div>
-
-                    <div class="block-title">
-                      <h2>What I Do</h2>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-xs-12 col-sm-6">
-                    <div class="info-list-w-icon">
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="linecons linecons-pen"></i>
-                        </div>
-      
-                        <div class="ci-text">
-                          <h4>Full package</h4>
-                          <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
-                        </div>
-                      </div>
-    
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="linecons linecons-display"></i>
-                        </div>
-     
-                        <div class="ci-text">
-                          <h4>Web Design</h4>
-                          <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-6">
-                    <div class="info-list-w-icon">
-
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="linecons linecons-shop"></i>
-                        </div>
-
-                        <div class="ci-text">
-                          <h4>Ecommerce</h4>
-                          <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
-                        </div>
-                      </div>
-
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="linecons linecons-megaphone"></i>
-                        </div>
-
-                        <div class="ci-text">
-                          <h4>Marketing</h4>
-                          <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Services -->
-
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12">
-                    <div class="p-20"></div>
-
-                    <!-- Testimonials -->
-                    <div class="block-title">
-                      <h2>Testimonials</h2>
-                    </div>
-
-                    <div id="testimonials_1" class="testimonials owl-carousel" data-mobile-items="1" data-tablet-items="2" data-items="2">
-                      <!-- Testimonial 1 -->
-                      <div class="testimonial-item">
-                        <!-- Testimonial Content -->
-                        <div class="testimonial-content">
-                          <!-- Picture -->
-                          <div class="testimonial-picture">
-                            <img src="img/testimonials/testimonial-1.jpg" alt="Billy Adams"/>
-                          </div>              
-                          <!-- /Picture -->
-
-                          <!-- Testimonial Text -->
-                          <div class="testimonial-text">
-                             <p>Donec eu est vel metus consequat volutpat. Nunc aliquet euismod mauris, a feugiat urna ullamcorper non.</p>
-                          </div>
-                          <!-- /Testimonial Text -->
-
-                          <!-- Testimonial author information -->
-                          <div class="testimonial-author-info">
-                            <h5 class="testimonial-author">Billy Adams</h5>
-                            <p class="testimonial-firm">Rolling Thunder</p>
-                          </div>
-                          <!-- /Testimonial author information -->
-
-                          <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                          </div>
-
-                           <div class="testimonial-icon-big">
-                            <i class="fa fa-quote-right"></i>
-                          </div>
-                        </div>
-                        <!-- /Testimonial Content -->
-                      </div>
-                      <!-- End of Testimonial 1 -->
-
-                      <!-- Testimonial 2 -->
-                      <div class="testimonial-item">
-                        <!-- Testimonial Content -->
-                        <div class="testimonial-content">
-                          <!-- Picture -->
-                          <div class="testimonial-picture">
-                            <img src="img/testimonials/testimonial-2.jpg" alt="Gary Johnson"/>
-                          </div>              
-                          <!-- /Picture -->
-
-                          <!-- Testimonial Text -->
-                          <div class="testimonial-text">
-                             <p>Nam tempor commodo mi id sodales. Aenean sit amet nibh nec sapien consequat porta a sit amet diam.</p>
-                          </div>
-                          <!-- /Testimonial Text -->
-
-                          <!-- Testimonial author information -->
-                          <div class="testimonial-author-info">
-                            <h5 class="testimonial-author">Gary Johnson</h5>
-                            <p class="testimonial-firm">Locost Accessories</p>
-                          </div>
-                          <!-- /Testimonial author information -->
-
-                          <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                          </div>
-
-                           <div class="testimonial-icon-big">
-                            <i class="fa fa-quote-right"></i>
-                          </div>
-                        </div>
-                        <!-- /Testimonial Content -->
-                      </div>
-                      <!-- End of Testimonial 2 -->
-
-                      <!-- End of Testimonial 3 -->
-                      <div class="testimonial-item">
-
-                        <!-- Testimonial Content -->
-                        <div class="testimonial-content">
-                          <!-- Picture -->
-                          <div class="testimonial-picture">
-                            <img src="img/testimonials/testimonial-3.jpg" alt="Daniel Pringle"/>
-                          </div>              
-                          <!-- /Picture -->
-
-                          <!-- Testimonial Text -->
-                          <div class="testimonial-text">
-                            <p>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</p>
-                          </div>
-                          <!-- /Testimonial Text -->
-
-                          <!-- Testimonial author information -->
-                          <div class="testimonial-author-info">
-                            <h5 class="testimonial-author">Daniel Pringle</h5>
-                            <p class="testimonial-firm">Sagebrush</p>
-                          </div>
-                          <!-- /Testimonial author information -->
-
-                          <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                          </div>
-
-                          <div class="testimonial-icon-big">
-                            <i class="fa fa-quote-right"></i>
-                          </div>
-                        </div>
-                        <!-- /Testimonial Content -->
-
-                      </div>
-                      <!-- End of Testimonial 3 -->
-                    </div>
-                    <!-- /Testimonials -->
-
-                    <div class="p-40"></div>
-
-                    <!-- Clients Slider -->
-                    <div class="block-title">
-                      <h2>Clients</h2>
-                    </div>
-
-                    <div id="clients_1" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="Golden Grid">
-                          <img src="img/clients/client-1.png" alt="Golden Grid">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="Sweety">
-                          <img src="img/clients/client-2.png" alt="Sweety">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="Magic Furnitures">
-                          <img src="img/clients/client-3.png" alt="Magic Furnitures">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="LifeGuard">
-                          <img src="img/clients/client-4.png" alt="LifeGuard">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="LESS">
-                          <img src="img/clients/client-5.png" alt="LESS">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="Design Lovers">
-                          <img src="img/clients/client-6.png" alt="Design Lovers">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="WordPress">
-                          <img src="img/clients/client-7.png" alt="WordPress">
-                        </a>
-                      </div>
-                    </div>
-                    <!-- /Clients Slider -->
-
-                    <div class="p-40"></div>
-
-                  </div>
-                </div>
-
-                <!-- Fun Facts -->
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12">
-                    <div class="block-title">
-                      <h2>Fun Facts</h2>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-xs-12 col-sm-3">
-                    <div class="lm-info-block gray-default">
-                      <i class="linecons linecons-heart"></i>
-                      <h4>Happy Clients</h4>
-                      <span class="lm-info-block-value">578</span>
-                      <span class="lm-info-block-text"></span>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-3">
-                    <div class="lm-info-block gray-default">
-                      <i class="linecons linecons-clock"></i>
-                      <h4>Working Hours</h4>
-                      <span class="lm-info-block-value">4,780</span>
-                      <span class="lm-info-block-text"></span>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-3 ">
-                    <div class="lm-info-block gray-default">
-                      <i class="linecons linecons-star"></i>
-                      <h4>Awards Won</h4>
-                      <span class="lm-info-block-value">15</span>
-                      <span class="lm-info-block-text"></span>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-3 ">
-                    <div class="lm-info-block gray-default">
-                      <i class="linecons linecons-cup"></i>
-                      <h4>Coffee Consumed</h4>
-                      <span class="lm-info-block-value">1,286</span>
-                      <span class="lm-info-block-text"></span>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Fun Facts -->
-
-                <div class="p-40"></div>
-
-                <!-- Pricing -->
-                <div class="row">
-                  <div class=" col-xs-12 col-sm-12 ">
-                    <div class="block-title">
-                      <h2>Pricing</h2>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="row">
-                  <div class=" col-xs-12 col-sm-12 ">
-                    <div class="fw-pricing clearfix row">
-                      
-                      <div class="fw-package-wrap col-md-4 ">
-                        <div class="fw-package">
-                          <div class="fw-heading-row">
-                            <span>Silver</span>
-                          </div>
-                          
-                          <div class="fw-pricing-row">
-                            <span>$99</span>
-                            <small>per month</small>
-                          </div>
-                          
-                          <div class="fw-button-row">
-                            <a href="#" target="_self" class="btn btn-secondary">Free Trial</a>
-                          </div>
-
-                          <div class="fw-default-row">Lorem ipsum dolor</div>
-                          <div class="fw-default-row">Pellentesque scelerisque</div>
-                          <div class="fw-default-row">Morbi eu sagittis</div>
-                        </div>
-                      </div>
-   
-                      <div class="fw-package-wrap col-md-4 highlight-col ">
-                        <div class="fw-package">
-                          <div class="fw-heading-row">
-                            <span>Gold</span>
-                          </div>
-                          
-                          <div class="fw-pricing-row">
-                            <span>$199</span>
-                            <small>per month</small>
-                          </div>
-
-                          <div class="fw-button-row">
-                            <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
-                          </div>
-                          
-                          <div class="fw-default-row">Lorem ipsum dolor</div>
-                          <div class="fw-default-row">Pellentesque scelerisque</div>
-                          <div class="fw-default-row">Morbi eu sagittis</div>
-                          <div class="fw-default-row">Donec non diam</div>
-                          <div class="fw-default-row">
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="fw-package-wrap col-md-4 default-col ">
-                      <div class="fw-package">
-                        <div class="fw-heading-row">
-                          <span>Platinum</span>
-                        </div>
-                        
-                        <div class="fw-pricing-row">
-                          <span>$350</span>
-                          <small>per month</small>
-                        </div>
-                        
-                        <div class="fw-button-row">
-                          <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
-                        </div>
-                        
-                        <div class="fw-default-row">Lorem ipsum dolor</div>
-                        <div class="fw-default-row">Pellentesque scelerisque</div>
-                        <div class="fw-default-row">Morbi eu sagittis</div>
-                        <div class="fw-default-row">Donec non diam</div>
-                        <div class="fw-default-row">Aenean nec libero</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Pricing -->
-              </div>
-
-              </div>
-            </div>
-          </div>
         </div>
+    </section>
 
-        <!-- Footer -->
-        <footer class="site-footer clearfix">
-          <div class="footer-social">
-            <ul class="footer-social-links"> 
-              <li>
-                <a href="https://github.com/mbkers04" target="_blank">Github</a>
-              </li>
+    <!--  Services -->
 
-              <li>
-                <a href="https://t.me/THE_CODING_MBKERS" target="_blank">Telegram</a>
-              </li>
+    <section id="services" class="services">
+        <div class="contanier">
+            <div class="sec-top">
+                <h1>Our <span>Services</span></h1>
+            </div>
 
-              <li>
-                <a href="https://www.instagram.com/monsefboukhanjer04/#" target="_blank">Instagram</a>
-              </li>
+            <div class="boxs">
+
+                <div class="box">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h3>Web Design</h3>
+                    <p>I design beautiful and powerful websites for modern businesses. Any business today
+                         needs a website that wins customers, trust and helps you do your business well.
+                    </p>
+
+                         <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="box">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Full package</h3>
+                    <p>I deliver an all-inclusive package, I will design, I will work closely with you
+                         to understand your unique needs and design a custom website that reflects your brand.</p>
+
+                         <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web developement</h3>
+                    <p>I specialize in using HTML, CSS, Bootstrap, JavaScript, Python, PHP and MySQL  to create beautiful,
+                         responsive websites that look great on any device, with fast loading times and seamless functionality.
+
+
+                    </p>
+
+                         <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  Project -->
+
+    <section id="Portfolio" class="portfolio">
+        <div class="contanier">
+            <div class="sec-top">
+                <h1>Latest <span>Projects</span></h1>
+            </div>
+
+            <div class="boxs">
+
+                <div class="box">
+                    <div class="box-hover">
+                        <span>Restau Page</span>
+                    </div>
+                    <img src="img/image.png" alt="">
+                </div>
+
+                <div class="box">
+                    <div class="box-hover">
+                        <span>Gym Page</span>
+                    </div>
+                    <img src="img/image2.png" alt="">
+                </div>
+
+                <div class="box">
+                    <div class="box-hover">
+                        <span>Car Page</span>
+                    </div>
+                    <img src="img/image3.png" alt="">
+                </div>
+
+                <div class="box">
+                    <div class="box-hover">
+                        <span>Portfolio Page</span>
+                    </div>
+                    <img src="img/image4.png" alt="">
+                </div>
+
+                <div class="box">
+                    <div class="box-hover">
+                        <span>Platform Page</span>
+                    </div>
+                    <img src="img/image5.png" alt="">
+                </div>
+
+                <div class="box">
+                    <div class="box-hover">
+                        <span>Log in Page</span>
+                    </div>
+                    <img src="img/image6.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--Footer-->
+
+    <section class="footer" id="Contact">
+        <div class="footer-row">
+<div class="footer-col">
+            <h4>Services</h4>
+            <ul class="links">
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Web developement</a></li>
+              <li><a href="#">Full package</a></li>
             </ul>
           </div>
-              
-          <div class="footer-copyrights">
-            <p>© 2024 All rights reserved. Monsef Boukhanjer.</p>
-          </div>
-        </footer>
-        <!-- /Footer -->
-        
-      </div>
-    </div>
 
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src='../../../../www.google.com/recaptcha/api.js'></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src='js/jquery.shuffle.min.js'></script>
-    <script src='js/masonry.pkgd.min.js'></script>
-    <script src='js/owl.carousel.min.js'></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
-    <script src="js/jquery.googlemap.js"></script>
-    <script src="js/validator.js"></script>
-    <script src="js/main.js"></script>
+          <div class="footer-col">
+            <h4>Info</h4>
+            <ul class="links">
+              <li><a href="#">Popular Designs</a></li>
+              <li><a href="#">Art Skills</a></li>
+              <li><a href="#">New Uploads</a></li>
+             
+            </ul>
+          </div>
+  
+          
+  
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul class="links">
+              <li><a href="mailto:mbkerscoding@gmail.com">mbkerscoding@gmail.com</a></li>
+              <li><a href="tel:0773191887">+212 773-191887</a></li>
+              <li><a href="https://www.bing.com/ck/a?!&&p=2008e533a6ec5e71JmltdHM9MTY5OTc0NzIwMCZpZ3VpZD0yMmU1YTJlZi01MGU4LTY5ZDEtMGZhZS1iMDQ
+                1NTRlODY3ODEmaW5zaWQ9NTU4MQ&ptn=3&ver=2&hsh=3&fclid=22e5a2ef-50e8-69d1-0fae-b04554e86781&u=a1L21hcHM_Jm1lcGk9MjR-flRvcE9mUGFn
+                ZX5MYXJnZU1hcExpbmsmdHk9MTgmcT1DYXNhYmxhbmNhJTJDJTIwQ2FzYWJsYW5jYS1TZXR0YXQlMkMlMjBNYXJvYyZzYXRpZD1pZC5zaWQlM0E2ZTBlNmNhMi1lM
+                DkyLTlkMGItZjM3Ni1lNTZkZTIyNTExZDYmdmRwaWQ9NTY4NDE0Mjg1MDUzOTc4MjE0NiZtYj0zMy42NDA5MTl-LTcuNzQ2NDU1fjMzLjQ5Mzc2M34tNy40NTc0MDc
+                mcHBvaXM9MzMuNTY3MzQwODUwODMwMDhfLTcuNjAxOTMxMDk1MTIzMjkxX0Nhc2FibGFuY2ElMkMlMjBDYXNhYmxhbmNhLVNldHRhdCUyQyUyME1hcm9jX34mY3A9M
+                zMuNTY3MzQxfi03LjYwMTkzMSZ2PTImc1Y9MSZGT1JNPU1JUkUmcXB2dD1tYXBzK2xpZW4rY2FzYWJsYW5jYQ&ntb=1">Casablanca</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer-col">
+            <h4>Let's work together</h4>
+            <p>
+              Subscribe
+            </p>
+            <form action="#">
+              <input type="text" placeholder="Your email" required>
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+            <div class="icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-telegram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    <script src="main.js"></script>
 </body>
 </html>
